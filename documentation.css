@@ -1,0 +1,57 @@
+body {
+    background-color: hsl(300, 100%, 90%);
+  }
+  header {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #fixed {
+    position: fixed !important;
+    background-color: hsl(0, 0%, 90%);
+    width: 17.5%;
+    padding: 10px;
+  }
+  .fixed {
+    background-color: hsl(0, 0%, 90%);
+    width: 20%;
+    display: inline-block;
+  }
+  nav {
+    margin: 0;
+    width: 20%;
+    background-color: hsl(0, 0%, 90%);
+    position: absolute;
+    overflow-y: scroll;
+    height: 100%;
+  }
+  .first {
+    margin-top: 12%;
+  }
+  main {
+    margin-left: 23%;
+    padding: 10px 10px 10px 0px;
+    overflow-y: scroll;
+    height: 100%;
+    position: absolute;
+  }
+  li {
+    padding: 5px;
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+  }
+  p {
+    font-size: 18px;
+  }
+  code {
+    font-size: 15px;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: hsl(192, 100%, 80%);
+    }
+  }
